@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PULSEDYN" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PULSEDYN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PULSEDYN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Output.h" />
+		<Unit filename="include/Particle.h" />
+		<Unit filename="include/Simulation.h" />
+		<Unit filename="include/System.h" />
+		<Unit filename="include/allIncludes.h" />
+		<Unit filename="include/boundaryConditions.h" />
+		<Unit filename="include/force.h" />
+		<Unit filename="include/fpuPotential.h" />
+		<Unit filename="include/lennardJonesPotential.h" />
+		<Unit filename="include/morsePotential.h" />
+		<Unit filename="include/todaPotential.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Output.cpp" />
+		<Unit filename="src/Particle.cpp" />
+		<Unit filename="src/Simulation.cpp" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/boundaryConditions.cpp" />
+		<Unit filename="src/force.cpp" />
+		<Unit filename="src/fpuPotential.cpp" />
+		<Unit filename="src/lennardJonesPotential.cpp" />
+		<Unit filename="src/morsePotential.cpp" />
+		<Unit filename="src/todaPotential.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
